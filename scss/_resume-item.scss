@@ -31,3 +31,37 @@ section.resume-section {
     padding-bottom: 3rem !important;
   }
 }
+
+
+//resume headers
+.resume-name{
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.resume-company-name{
+  font-family: $font-family-sans-serif;
+}
+
+.resume-job-title{
+  font-weight: 600;
+  font-family: $font-family-monospace;
+}
+
+.resume-date{
+  text-transform: uppercase;
+  color: $gray-600;
+  font-family: $font-family-sans-serif;
+}
+
+
+//shipped products featurettes
+.shipped-products-header{
+  font-family: $font-family-sans-serif;
+  font-weight: 600;
+  color: $gray-800;
+}
+
+.featurette-heading{
+  font-family: $font-family-sans-serif;
+}

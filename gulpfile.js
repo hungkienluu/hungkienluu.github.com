@@ -27,6 +27,12 @@ gulp.task('vendor', function() {
     ])
     .pipe(gulp.dest('./vendor/bootstrap'))
 
+  // HolderJS
+  gulp.src([
+      './node_modules/holderjs/*.js',
+    ])
+    .pipe(gulp.dest('./vendor/holderjs'))
+
   // Devicons
   gulp.src([
       './node_modules/devicons/**/*',

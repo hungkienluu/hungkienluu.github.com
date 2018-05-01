@@ -1,14 +1,36 @@
+// Sidebar Nav Variables
+
+$sidebar-base-width: 17rem;
+
+// global body scss for the side navigation to not run into body
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: $sidebar-base-width;
+  }
+}
+
+// scss 
+
 #sideNav {
   .navbar-brand {}
   .navbar-nav .nav-item .nav-link {
     font-weight: 600;
+    font-family: $font-family-sans-serif;
     text-transform: uppercase;
   }
 }
 
+.resume-section-header{
+  font-weight: 700;
+  font-size: $font-size-base * 3;
+  font-family: $font-family-sans-serif;
+}
+
 @media (min-width: 992px) {
   #sideNav {
-    text-align: center;
+    text-align: left;
     position: fixed;
     top: 0;
     left: 0;
@@ -38,7 +60,7 @@
       margin-bottom: auto;
       .navbar-nav {
         flex-direction: column;
-
+        padding-left: 3rem;
         width: 100%;
         .nav-item {
           display: block;
