@@ -34,9 +34,11 @@ section.resume-section {
 
 
 //resume headers
-.resume-name{
-  font-size: 5rem;
-  font-weight: 600;
+@media (min-width: 992px) {
+  .resume-name{
+    font-size: 5rem;
+    font-weight: 600;
+  }
 }
 
 .resume-company-name{

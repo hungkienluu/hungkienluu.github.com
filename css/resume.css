@@ -8256,9 +8256,11 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
-.resume-name {
-  font-size: 5rem;
-  font-weight: 600;
+@media (min-width: 992px) {
+  .resume-name {
+    font-size: 5rem;
+    font-weight: 600;
+  }
 }
 
 .resume-company-name {
